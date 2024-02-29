@@ -19,7 +19,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    color: rgb(196, 194, 194);
+    color: rgb(243, 240, 240);
     font-family:Gotham;
     font-size: 25px;
     
@@ -49,10 +49,6 @@
     margin-bottom: -90px;
 }
 
-hr {
-    margin: auto;
-    width: 40%;
-}
  .soon{
     color: #158a63;
  }
