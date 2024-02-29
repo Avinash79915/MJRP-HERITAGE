@@ -1,0 +1,64 @@
+*{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url(../Assets/Images/Gotham-Font/Gotham-Bold.otf);
+}
+@font-face {
+    font-family: Gotham-Bold;
+    src: url(../Assets/Images/Gotham-Font/GothamBold.ttf);
+}
+.bgimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)), url(../Assets/Images/WhatsApp\ Image\ 2024-02-28\ at\ 7.26.44\ PM.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: rgb(196, 194, 194);
+    font-family:Gotham;
+    font-size: 25px;
+    
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    margin-bottom: 20px;
+}
+
+.middle {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.middle  img{
+    margin-bottom: -90px;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+ .soon{
+    color: #158a63;
+ }
+
+ .bottom{
+    color:rgb(219, 216, 216);
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
