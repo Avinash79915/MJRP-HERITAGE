@@ -6,7 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import FooterAnimation from "../Animations/Footer-Animation";
-
+import Logo from "../Assets/Images/MJRPHERITAGE.png";
 const Footer = () => {
     return (
       <>
@@ -23,23 +23,29 @@ const Footer = () => {
             ></iframe>
           </div>
           <div className="ContentSection">
-
-          <div className="Footer_Animation">
-          <FooterAnimation/>
+          <div className="Footer_Logo">
+          <img src={Logo} alt="" />
           </div>
+         
             <div className="Content">
-              <h2>Contact With Us</h2>
+              <h2>CONTACT WITH US</h2>
+              <hr />
+              <br />
               <h4><FaPhone /> +91 7991515500</h4>
               <h4><MdMailOutline /> &nbsp; avikushwaha121@gmail.com</h4>
             </div>
             <div className="Content">
-              <h2>Quick Links</h2>
+              <h2>QUICK LINKS</h2>
+              <hr />
+              <br />
               <h4>&#x2022; FAQ</h4>
               <h4>&#x2022; About Us</h4>
               <h4>&#x2022; Privacy</h4>
             </div>
             <div className="Content">
-              <h2>Social Media</h2>
+              <h2>SOCIAL MEDIA</h2>
+              <hr />
+              <br />
               <h4><FaFacebook /> &nbsp; Facebook</h4>
               <h4><FaInstagramSquare /> &nbsp; Instagram</h4>
               <h4><FaYoutube /> &nbsp; Youtube</h4>

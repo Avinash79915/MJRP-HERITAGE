@@ -188,19 +188,18 @@
   .nav-links {
     display: none;
     flex-direction: column;
-    align-items:start;
+    align-items:center;
     position: fixed;
-    top: 100px; 
+    top: 80px; 
     right: 0;
-    background-color: rgba(203, 200, 200, 0.8);
+    background-color:#103D2E;
     z-index: 1;
-    border-radius: 20px;
+    border-radius: 1px;
     justify-content: space-between;
-    width: 250px;
-    height: 500px;
-    box-shadow: -5px 5px 1px 0px #103D2E;
-    justify-content: space-evenly;
-    
+    width: 100vw;
+    height: 100vh;
+    justify-content:center;
+    gap:100px
   }
 
   .nav-links.open {
@@ -209,14 +208,15 @@
 
   
 .link {
-  color: #103D2E;
+  color: #ffffff;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 20px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 30px;
-  position: relative;
+  font-size: 20px;
+  position:relative;
   overflow: hidden;
+  letter-spacing: 2px;
 }
 
 .link::before {

@@ -8,6 +8,7 @@ import MandatoryDisclosure from "./Pages/MandatoryDisclosure";
 import ScrollToTop from './Component/ScrollToTop'; 
 
 function App() {
+  
   return (
     <div>
    <Router>

@@ -11,11 +11,18 @@ import School2 from "../Assets/Images/School/School2.jpeg";
 import School3 from "../Assets/Images/School/School3.jpeg";
 import School4 from "../Assets/Images/School/School4.jpeg";
 import School5 from "../Assets/Images/School/School5.jpeg";
-
+import { useNavigate } from 'react-router-dom';
 
 
 
 const Home=() =>{
+
+  
+    const navigate = useNavigate();
+  
+    const handleEnrollClick = () => {
+      navigate('/Admission');
+    };
 
     return(
        <>
@@ -37,8 +44,8 @@ const Home=() =>{
             <br />
             "Today is the first day of the rest of your life " we believe in holistic development of child by emphasizing continuous improvement in various curriculum. Now one can apply online for admission</p>
 
-            <button class="button type1">
-               <span class="btn-txt">Enroll</span>
+            <button class="button type1" onClick={handleEnrollClick}>
+               <span class="btn-txt" >Enroll</span>
             </button>
           </div>
          </div>
@@ -97,7 +104,7 @@ const Home=() =>{
     </p>
   </div>
 </div>
-<h1>Gallary</h1>
+<h1 id='gall'>GALLARY</h1>
 
 </div>
 
@@ -106,7 +113,7 @@ const Home=() =>{
 <div className="Gallary">
 <ul>
 	<li>
-		<a href="" >
+		<a href="#" >
 			<figure>
       <img src={School1} alt="Service 1" />
 				<figcaption>Side Front View</figcaption>
@@ -114,35 +121,35 @@ const Home=() =>{
 		</a>
 	</li>
 	<li>
-		<a href="">
+		<a href="#">
 			<figure>
       <img src={School2} alt="Service 1" />				<figcaption>Front View</figcaption>
 			</figure>
 		</a>
 	</li>
 	<li>
-		<a href="">
+		<a href="#">
 			<figure>
       <img src={School3} alt="Service 1" />				<figcaption>Side Viwe</figcaption>
 			</figure>
 		</a>
 	</li>
 	<li>
-		<a href="">
+		<a href="#">
 			<figure>
       <img src={School4} alt="Service 1" />				<figcaption>Hiking trails</figcaption>
 			</figure>
 		</a>
 	</li>
 	<li>
-		<a href="">
+		<a href="#">
 			<figure>
       <img src={School5} alt="Service 1" />				<figcaption>Street scenes</figcaption>
 			</figure>
 		</a>
 	</li>
 	<li>
-		<a href="">
+		<a href="#">
 			<figure>
       <img src={School1} alt="Service 1" />				<figcaption>Trending</figcaption>
 			</figure>
