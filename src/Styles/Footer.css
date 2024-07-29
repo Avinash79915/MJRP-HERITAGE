@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Gotham-Light;
+    src: url(../Assets/Images/Gotham-Font/Gotham-Light.otf);
+}
+
+.Footer{
+height: 800px;
+width: auto;
+background-color: #103D2E;
+
+}
+.ContentSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    height: 340px;
+    color: yellow;
+font-family: Gotham-Light;
+line-height: 200%;
+
+}
+.Footer h2{
+    margin-bottom: 30px;
+}
+
+.BottomFooter{
+text-align: center;
+color: yellow;
+font-family: Gotham-Light;
+}
+
+.Content h4:hover {
+    color: #fff; 
+    cursor: pointer;
+}
+
+
+@media (max-width: 480px) {
+    
+.Footer{
+    height: 800px;
+    width: auto;
+    background-color: #103D2E;
+    
+    }
+    .ContentSection{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        height: 340px;
+        color: yellow;
+    font-family: Gotham-Light;
+    line-height: 200%;
+    
+    }
+    .Footer h2{
+        margin-bottom: 30px;
+    }
+    
+    .BottomFooter{
+    text-align: center;
+    color: yellow;
+    font-family: Gotham-Light;
+    }
+    
+    .Content h4:hover {
+        color: #fff; 
+        cursor: pointer;
+    }
+    
+    .Footer_Animation{
+        display: none;
+    }
+}
