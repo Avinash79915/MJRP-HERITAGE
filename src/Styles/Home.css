@@ -50,6 +50,14 @@ margin-top: -150px;
 margin-left: 125px;
 }
 
+.news{
+  height: 500px;
+  width: 100%;
+  background-color: #fdfdfd;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
 
 

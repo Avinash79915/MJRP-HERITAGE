@@ -1,0 +1,142 @@
+.news-ticker {
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+  background-color: #F8FBFE;
+  height: 350px;
+  border-radius: 8px;
+
+}
+
+.news-ticker-header {
+  background-color: #f8f8f8;
+  color: rgba(17, 24, 39, 1);
+  text-align: center;
+  padding: 5px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content:space-between; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+
+}
+
+.news-ticker-content {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+
+}
+
+.news-ticker-items {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  animation: ticker 25s linear infinite;
+}
+
+.news-ticker-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  white-space: nowrap;
+  color: #333;
+}
+/* From Uiverse.io by 3bdel3ziz-T */ 
+/*making bell shape with one div */
+.bell {
+  border: 3.17px solid black;
+  border-radius: 10px 10px 0 0;
+  width: 15px;
+  height: 17px;
+  background: transparent;
+  display: block;
+  position: relative;
+  top: -3px;
+}
+.bell::before,
+.bell::after {
+  content: "";
+  background: black;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2.17px;
+}
+.bell::before {
+  top: 100%;
+  width: 20px;
+}
+.bell::after {
+  top: calc(100% + 4px);
+  width: 7px;
+}
+.notification1 {
+  background: transparent;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 300ms;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*notifications number with before*/
+.notification1::before {
+  content: "1";
+  color: rgb(238, 255, 7);
+  font-size: 12px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  right: 5px;
+  top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+/*container background hover effect*/
+.notification1 {
+  background:  rgba(250, 204, 21, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes ticker {
+  0% {
+      transform: translateY(0%);
+  }
+  100% {
+      transform: translateY(-100%);
+  }
+  0% {
+    transform: translateY(100%);
+}
+}
+
+.news-ticker-content:hover .news-ticker-items {
+  animation-play-state: paused;
+}

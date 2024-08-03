@@ -123,3 +123,130 @@
   color: #103D2E;
   font-weight: 500;
 }
+
+@media (max-width: 490px) {
+  .about_school{
+    height: 100vh;
+    background-color: white;
+  
+  }
+  .about_school{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+  }
+  .left_section{
+    margin-left: -90px;
+    margin-top: -150px;
+  }
+  .about_school h1{
+    font-size: 50px;
+    color: #103D2E;
+  }
+  .about_school .left_section h2{
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color:#103D2E;
+    margin-bottom: -100px;
+  }
+  
+  .about_school .right_section h2{
+    font-size: 15px;
+    font-weight:300;
+    font-family: "Roboto", sans-serif;
+  
+  
+  }
+  .right_section{
+    justify-content:space-evenly;
+   width: 100%;
+   text-align: justify;
+  }
+  .monu{
+    color: #103D2E;
+    font-weight: 500;
+  }
+  .rolemodel {
+   display: flex;
+  
+  
+  }
+
+  
+.Headline{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+
+}
+.rolemodel {
+  background-color: white;
+  text-align: center;
+ 
+
+
+}
+.rolemodel h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #103D2E;
+  text-align: center;
+}
+
+
+.card {
+  text-align: center;
+  
+}
+
+.card img {
+  width: 350px; 
+  height: 400px; 
+  border-radius: 50%;
+
+}
+
+.name-circle {
+  margin-top: 10px;
+  padding: 5px;
+  width: 350px; 
+  text-align: center;
+
+}
+
+
+.card {
+  box-sizing: border-box;
+  width: 350px;
+  height: 400px;
+  background: rgba(217, 217, 217, 0.58);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 1s;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  color: black;
+}
+
+.card:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.card:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+}

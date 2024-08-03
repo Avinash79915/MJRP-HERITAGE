@@ -12,6 +12,8 @@ import School3 from "../Assets/Images/School/School3.jpeg";
 import School4 from "../Assets/Images/School/School4.jpeg";
 import School5 from "../Assets/Images/School/School5.jpeg";
 import { useNavigate } from 'react-router-dom';
+import NewsTicker from '../Component/NewsTicker';
+import Blog from '../Component/Blog';
 
 
 
@@ -33,6 +35,12 @@ const Home=() =>{
                 <h2>Welcome to MJRP HERITAGE</h2>
              </div>
          </div>
+         <div className="news">
+         <NewsTicker />
+         <Blog />
+         </div>
+
+
          <div className="Admission">
          <div className="Admission_Animation">
            <StudentAnimation/>
