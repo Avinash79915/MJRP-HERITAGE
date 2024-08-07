@@ -16,7 +16,7 @@ const Blog = () => {
     <div class="infos">
       <a href="#">
         <span class="title">
-        Read Latest Blogs
+         Read Latest Blogs
         </span>
       </a>
 

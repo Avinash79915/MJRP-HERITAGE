@@ -93,3 +93,23 @@
   .action:hover {
     background-color: rgba(250, 204, 21, 1);
   }
+
+
+  @media (max-width: 480px) {
+    *{
+      
+      .card1 {
+        display: flex;
+        max-width: 320px;
+        height: 330px;
+    
+      }
+      .description {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8;
+        line-clamp: 5;
+        
+      }
+  }
+}

@@ -140,3 +140,17 @@
 .news-ticker-content:hover .news-ticker-items {
   animation-play-state: paused;
 }
+
+@media (max-width: 480px) {
+  
+    .news-ticker {
+      border: 2px solid #ccc;
+      padding: 10px;
+      width: 320px;
+      position: relative;
+      height: 350px;
+    
+    }
+    
+}
+
