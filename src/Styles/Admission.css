@@ -1,5 +1,5 @@
 .Admission-main{
-    height: 100vh;
+   height: 200vh;
    display: flex;
    align-items: center;
    justify-content:space-evenly;
@@ -31,31 +31,32 @@ font-family: "Roboto", sans-serif;
 
 @media (max-width: 490px) {
   .Admission-main{
-    height: 100vh;
+    height: 150vh;
     width: auto;
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content:space-evenly;
-   gap: 100px;
+   justify-content:start;
 }
 .Add_Animation{
-margin-top: 200px;
+margin-top: 0px;
 position:-1;
 }
 
 .Admission_main_content{
-height: 400px;
-width: 600px;
+  padding: 10px 15px ;
+height: 100vh;
+width: 100vw;
 font-family: "Roboto", sans-serif;
-
+text-align: justify;
 }
 
 .Admission_main_content h1{
-    font-size: 50px;
+    font-size: 40px;
   font-weight: 500;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   color:#103D2E;
+  
 }
 .Admission_main_content p{
     font-size: 18px;

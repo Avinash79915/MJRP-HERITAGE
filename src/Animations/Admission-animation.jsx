@@ -17,7 +17,7 @@ const AdmissionAnimation = () => {
       src="https://lottie.host/9815097d-826c-4b1e-98c1-c84ed7640f11/xNbZEeYilU.json"
       background="transparent"
       speed="1"
-      style={{ width: '500px', height: '500px' }}
+      style={{ width: '450opx', height: '450px' }}
       direction="1"
       playMode="normal"
       loop
