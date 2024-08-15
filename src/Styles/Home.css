@@ -196,7 +196,7 @@ margin-left: 125px;
 	
 }
 
-.Gallary .img {
+.Gallary img {
 	width: 100%;
 	display: block;
 	aspect-ratio: 3 / 2;
@@ -311,7 +311,6 @@ main{
   position: relative;
   font-family:Gotham;
   display: flex;
-  align-items:start;
   flex-direction:column ;
   
 }
@@ -341,8 +340,6 @@ border-bottom: 2px solid #103D2E;
 
 .Admission{
   display: flex;
-  align-items:start;
-  text-align: start;
   justify-content:space-evenly;
   overflow: none;
   }

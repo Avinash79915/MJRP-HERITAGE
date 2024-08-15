@@ -1,5 +1,5 @@
 .Admission-main{
-   height: 200vh;
+   height: 100vh;
    display: flex;
    align-items: center;
    justify-content:space-evenly;
@@ -36,7 +36,7 @@ font-family: "Roboto", sans-serif;
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content:start;
+   justify-content:flex-start;
 }
 .Add_Animation{
 margin-top: 0px;

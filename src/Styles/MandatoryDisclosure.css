@@ -5,17 +5,18 @@ body {
 }
 
 .cmd {
-  width: 100vw;
-  padding: 20px;
-  background-color: #f9f9f9e2;
+  padding: 40px;
+  background-color: #f8f5f5e2;
 }
 
 .grid_container {
-  margin: 200px auto;
-  padding: 20px;
-  width: 80rem;
-  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 50px;
+  background-color: #fff5f5;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+
 }
 .grid_container h1{
   font-family: "Roboto", sans-serif;
@@ -32,7 +33,7 @@ body {
 }
 .grid_content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 50px;
 }
 
@@ -139,3 +140,39 @@ body {
   font-size: 0.9rem;
   width: 75%;
 }
+
+
+@media (max-width: 490px) {
+  
+.cmd {
+  padding: 10px;
+}
+
+.grid_container {
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff5f5;
+  display: flex;
+  flex-direction: column;
+
+}
+.grid_container h1{
+  font-family: "Roboto", sans-serif;
+  font-size: 27px;
+  font-weight:bold ;
+  color:#103D2E;
+}
+
+.grid_container h2{
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight:400 ;
+  color:#103D2E;
+}
+.grid_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+  }

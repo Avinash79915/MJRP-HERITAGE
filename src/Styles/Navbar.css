@@ -82,14 +82,25 @@
     margin-right: -40px;
   }
   .logo {
-    height: 25px;
+    height: 250px;
   
   }
 }
 @media (max-width: 780px) {
   .navbar {
-    gap: 20px;
-
+    height: 13vh;
+    width: 100vw;
+    display: flex;
+    justify-content:space-between; 
+    align-items:center;
+    padding: 0 0;
+    background-color: #fff;
+    color: #050404;
+    top: 0;
+    z-index: 1;
+    box-shadow: none ;
+    gap: 10px;
+    position:relative;
   }
 
   .nav-links {
@@ -99,15 +110,15 @@
     position: fixed;
     top: 100px; 
     right: 0;
-    background-color: rgba(203, 200, 200, 0.8);
+    background-color:#103D2E;
     z-index: 1;
-    border-radius: 20px;
+    border-radius: 0px;
     justify-content: space-between;
-    width: 250px;
-    height: 500px;
-    box-shadow: -5px 5px 1px 0px #103D2E;
-    justify-content: space-evenly;
-    
+    width: 100%;
+    height: 100%;
+    justify-content:flex-start;
+    gap:0px;
+
   }
 
   .nav-links.open {
@@ -115,15 +126,19 @@
   }
 
   
+  
 .link {
-  color: #103D2E;
+  color: #ffffff;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 30px;
-  position: relative;
+  position:relative;
   overflow: hidden;
+  letter-spacing: 2px;
+  margin-top: 50px;
+
 }
 
 .link::before {
@@ -140,14 +155,16 @@
   .nav-toggle {
     cursor: pointer;
     flex-direction: column;
+    margin-right: 20px;
   }
 
   .logo {
-
-    height: 300px;
+    margin-top:20px ;
+    height: 250px;
+    width: auto;
   }
   .logo-container {
-    margin-right: 100px;
+    margin-right: 0px;
   }
   
 
@@ -168,7 +185,7 @@
 
 
 
-@media (max-width: 490px) {
+@media (max-width: 490px ) {
   .navbar {
     height: 13vh;
     width: 100vw;
@@ -181,25 +198,26 @@
     top: 0;
     z-index: 1;
     box-shadow: none ;
-    gap: 110px;
+    gap: 10px;
     position:relative;
   }
 
   .nav-links {
     display: none;
     flex-direction: column;
-    align-items:center;
+    align-items:start;
     position: fixed;
-    top: 80px; 
+    top: 100px; 
     right: 0;
     background-color:#103D2E;
     z-index: 1;
-    border-radius: 1px;
+    border-radius: 0px;
     justify-content: space-between;
-    width: 100vw;
-    height: 100vh;
-    justify-content:center;
-    gap:100px
+    width: 100%;
+    height: 100%;
+    justify-content:flex-start;
+    gap:0px;
+
   }
 
   .nav-links.open {
@@ -207,16 +225,19 @@
   }
 
   
+  
 .link {
   color: #ffffff;
   text-decoration: none;
-  margin: 0 20px;
+  margin: 0 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 30px;
   position:relative;
   overflow: hidden;
   letter-spacing: 2px;
+  margin-top: 50px;
+
 }
 
 .link::before {

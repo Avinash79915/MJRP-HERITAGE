@@ -6,6 +6,7 @@ const MandatoryDisclosure = () => {
       <div className="cmd">
         <div className="grid_container">
           <h1>CBSE Mandatory Disclosure</h1>
+          <br />
           <h2>General Information</h2>
           <br />
           <div className="grid_content">
@@ -42,7 +43,7 @@ const MandatoryDisclosure = () => {
             </div>
           </div>
         </div>
-      </div>
+     
 
       <div className="grid_container">
         <h2>Documents and information</h2>
@@ -108,6 +109,7 @@ const MandatoryDisclosure = () => {
             <div className="notibody">Available</div>
           </div>
         </div>
+      </div>
       </div>
     </>
   );
